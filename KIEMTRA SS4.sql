@@ -19,10 +19,10 @@ VALUES
 
 INSERT INTO Products
 VALUES
-(1,'iPhone 15','25000000','10','1'),
-(2,'Samsung S23','20000000','5','1'),
-(3,'Áo sơ mi nam','500000','50','2'),
-(4,'Giày thể thao','1200000','20','2');
+(1,'iPhone 15',25000000,10,1),
+(2,'Samsung S23',20000000,5,1),
+(3,'Áo sơ mi nam',500000,50,2),
+(4,'Giày thể thao',1200000,20,2);
 
 UPDATE Products
 SET price=26000000

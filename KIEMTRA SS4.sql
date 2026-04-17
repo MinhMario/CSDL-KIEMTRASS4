@@ -41,3 +41,12 @@ WHERE price<1000000;
 SELECT *FROM Products;
 SELECT *FROM Products
 WHERE stock>15;
+
+SELECT FROM Products
+WHERE price>=1000000 AND price <=25000000;
+
+SELECT FROM Products
+WHERE stock>0 AND product_id!=1;
+
+SELECT FROM Products
+WHERE stock>500000 AND category_id!=1;

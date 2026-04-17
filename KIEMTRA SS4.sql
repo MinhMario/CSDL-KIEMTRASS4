@@ -38,5 +38,6 @@ WHERE product_id=4;
 DELETE FROM Products
 WHERE price<1000000;
 
+SELECT *FROM Products;
 SELECT *FROM Products
 WHERE stock>15;
